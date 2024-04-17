@@ -1,0 +1,9 @@
+/* Styles for the navbar */
+.navbar {
+    margin-bottom: 20px; /* Add some space below the navbar */
+}
+
+/* Styles for the dropdown menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
