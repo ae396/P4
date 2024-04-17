@@ -5,18 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Girl Shoes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="girl.css">
+    <link rel="stylesheet" href="stylesheets/girl.css">
 </head>
 <body>
 
-<!-- Navbar (You can reuse the navbar code from previous examples) -->
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="home.html">
+            <img src="pictures/starpic.png" alt="Star Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="shoes.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shoes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="shoes.html">General</a>
+                        <a class="dropdown-item active" href="girlpage.html">Girl Shoes</a>
+                        <a class="dropdown-item" href="boypage.html">Boy Shoes</a>
+                        <a class="dropdown-item" href="menpage.html">Men Shoes</a>
+                        <a class="dropdown-item" href="womenpage.html">Women Shoes</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <div class="container mt-4">
     <h1>Girl Shoes</h1>
-    <!-- Add content specific to girl shoes page -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="pictures/pink.png" class="card-img-top" alt="Pink Shoes">
+                <div class="card-body">
+                    <h5 class="card-title">Pink Shoes</h5>
+                    <p class="card-text">$20.99</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="pictures/sketchergirl.png" class="card-img-top" alt="Sketcher Shoes">
+                <div class="card-body">
+                    <h5 class="card-title">Sketcher Shoes</h5>
+                    <p class="card-text">$14.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="pictures/adidasgirl.png" class="card-img-top" alt="Adidas Shoes">
+                <div class="card-body">
+                    <h5 class="card-title">Adidas Shoes</h5>
+                    <p class="card-text">$25.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+<footer>
+    <p>&copy;  AJ Estrella 4/16/2024 | Terms of Service | Privacy Statement</p>
+</footer>
 </html>

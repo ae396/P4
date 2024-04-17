@@ -1,0 +1,59 @@
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+h1 {
+    text-align: center;
+    color: deeppink;
+}
+
+.navbar-nav .nav-link {
+    border: 2px solid black;
+    margin: 0 5px;
+    padding: 10px 20px;
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: yellow;
+    color: white;
+}
+@media (max-width: 768px) {
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+    }
+}
+.navbar-nav .nav-item.active .nav-link {
+    background-color: black;
+    color: yellow;
+}
+.dropdown-item.active {
+    background-color: black;
+    color: yellow;
+}
+.logo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 20px;
+    height: auto;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke; /* Light blue background */
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 1rem;
+}
+footer p {
+    text-align: center;
+    color: black;
+    padding: 1em 0;
+}

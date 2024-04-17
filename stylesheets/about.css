@@ -34,9 +34,14 @@
     height: auto;
 }
 footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: whitesmoke;
-    clear: both;
-
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 1rem;
 }
 footer p {
     text-align: center;

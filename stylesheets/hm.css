@@ -40,9 +40,14 @@
      color: black;
  }
 footer {
-    background-color: whitesmoke;
-    clear: both;
-
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke; /* Light blue background */
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 1rem;
 }
 footer p {
     text-align: center;

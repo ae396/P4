@@ -5,13 +5,16 @@
 h1 {
     text-align: center;
 }
+h2 {
+    text-align: center;
+    font-size: 42px;
+}
 .navbar-nav .nav-link {
     border: 2px solid black;
     margin: 0 5px;
     padding: 10px 20px;
     color: black;
 }
-
 .navbar-nav .nav-link:hover {
     background-color: yellow;
     color: white;
@@ -29,6 +32,10 @@ h1 {
     background-color: black;
     color: yellow;
 }
+.dropdown-item.active {
+    background-color: black;
+    color: yellow;
+}
 .logo {
     display: block;
     max-width: 150px;
@@ -36,16 +43,14 @@ h1 {
     height: auto;
 }
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: whitesmoke; /* Light blue background */
+    background-color: whitesmoke;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     font-size: 1rem;
-
 }
 footer p {
     text-align: center;
